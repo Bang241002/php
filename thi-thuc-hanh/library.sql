@@ -20,9 +20,9 @@ CREATE TABLE books (
 ) ENGINE = InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=19;
 
 INSERT INTO books (bookid, authorid, title, ISBN, pub_year, available)  VALUES
-(1, 1, 'The Two Towers', '0-261-10236-2', 1954, 1),
-(2, 1, 'The Return of the King', '0-261-10237-0', 1955, 1),
-(3, 2, 'Roots', '0-440-17464-3', 1974, 1),
+(1, 3, 'Dế Mèn phiêu lưu ký', 'Tô hoài', 1941),
+(2, 3, 'Vợ Chồng A phủ', 'Tô Hoài', 1920),
+(3, 3, 'Vợ nhặt', 'Tô hoài', 1941),
 (4, 3, 'Rainbow Six', '0-425-17034-9', 1998, 1),
 (5, 3, 'Teeth of the Tiger', '6-399-15079-X', 2003, 1),
 (6, 3, 'Executive Orders', '0-425-15863-2', 1996, 1),
